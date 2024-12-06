@@ -1,0 +1,72 @@
+
+/* Styling for the header section */
+.header {
+  color: Black; /* White text for contrast */
+  border-bottom: 3px solid #000; /* Black border for consistency */
+  padding: 20px 0; /* Space inside the header */
+   margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size:35px;
+  margin-top: 55px;
+  color:White;
+  background-color:black;
+  background-size:cover;
+}
+.nav {
+  display: flex;
+  justify-content: center; /* Centers the navigation links horizontally */
+}
+
+  
+/* Styling for buttons in the header */
+
+.nav .nav-button {
+	padding: 5px 15px;
+	border: 1px solid #000;
+	border-radius: 50px;
+	margin: 0 10px; /* Add spacing between links */
+	color:Black;
+	background-color:yellow;
+	
+	
+  
+}
+
+.nav .nav-button:hover {
+  background-color: darkgray;/*Lighter shade on hover*/
+}
+p {
+  margin-left:10px;
+  margin-top:20px;
+}
+
+img{
+	margin-top:10px;
+}
+.line {
+	font-size:20px;
+	color:red;
+	text-align: center;
+    margin-top: 40px;
+	background-color:Black;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 24px; /* Further adjust for small devices */
+	text-align: center;
+  }
+
+  .nav .nav-button {
+    margin: 5px 5; /* Add spacing between buttos */
+    text-align: center;
+  }
+
+  /* Adjust grid layouts for smaller screens */
+  .col-md-6 {
+    width: 100%; /* Make columns full-width */
+    margin-bottom: 20px; /* Add spacing between stacked items */
+  }
+}
